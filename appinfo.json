@@ -4,7 +4,7 @@
         ""
     ],
     "companyName": "fabrice.labbe@adfab.fr",
-    "longName": "countz",
+    "longName": "Countz",
     "projectType": "pebblejs",
     "resources": {
         "media": [
@@ -32,10 +32,10 @@
         ]
     },
     "sdkVersion": "3",
-    "shortName": "counter",
+    "shortName": "Countz",
     "uuid": "2ace012e-a073-48fc-9eca-4c220561b099",
     "versionCode": 1,
-    "versionLabel": "1.0",
+    "versionLabel": "2.0",
     "watchapp": {
         "hiddenApp": false,
         "watchface": false
