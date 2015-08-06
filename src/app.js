@@ -6,6 +6,9 @@ var Vector2 = require('vector2');
 var BOUNDS = { WIDTH: 144, HEIGHT: 152 };
 var wind = new UI.Window();
 
+var splashScreen = new UI.Card({ banner: 'images/splash.png' });
+splashScreen.show();
+
 var menu = new UI.Menu({
   backgroundColor: 'black',
   textColor: 'white',
@@ -44,7 +47,6 @@ var title = new UI.Text({
 });
 
 wind.add(title);
-wind.show();
 
 var CountzSetting = {
   number: 1,
@@ -249,5 +251,8 @@ var Countz = {
   }
   
 };
-
+setTimeout(function() {
+  wind.show();
+  splashScreen.hide();
+}, 400);
 Countz.init();
